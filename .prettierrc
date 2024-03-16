@@ -1,14 +1,10 @@
 {
   "singleQuote": true,
-  "bracketSpacing": false,
+  "jsxSingleQuote": true,
+  "semi": true,
+  "tabWidth": 2,
+  "bracketSpacing": true,
   "jsxBracketSameLine": false,
-  "useTabs": true,
-  "overrides": [
-    {
-      "files": ["*.yml"],
-      "options": {
-        "singleQuote": false
-      }
-    }
-  ]
+  "arrowParens": "always",
+  "printWidth": 120
 }
